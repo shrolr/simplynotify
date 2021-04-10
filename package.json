@@ -1,0 +1,16 @@
+{
+  "name": "simplynotify",
+  "version": "0.0.1",
+  "description": "simplynotify react-native",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
