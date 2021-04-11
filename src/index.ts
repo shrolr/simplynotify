@@ -9,7 +9,7 @@ const serverUrl = {
 interface IsimplyNotify {
 
 }
- 
+
 class SimplyNotify implements IsimplyNotify {
     private apiKey = "";
     private externalUserId = "";
@@ -47,3 +47,4 @@ class SimplyNotify implements IsimplyNotify {
         });
     }
 }
+export default new SimplyNotify()

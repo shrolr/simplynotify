@@ -1,11 +1,3 @@
-interface addUserNetworkRequest {
-    token: string;
-    apiKey: string;
-    externalUserId?: string;
-}
-declare const serverUrl: {
-    addUser: string;
-};
 interface IsimplyNotify {
 }
 declare class SimplyNotify implements IsimplyNotify {
@@ -19,4 +11,6 @@ declare class SimplyNotify implements IsimplyNotify {
     removeUserForPushNotification(): void;
     private sendRequestToApi;
 }
+declare const _default: SimplyNotify;
+export default _default;
 //# sourceMappingURL=index.d.ts.map
